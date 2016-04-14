@@ -11,7 +11,7 @@ SRCREV = "bf4d49ba06ed6449b1050aaaa96ef153c6745ffc"
 
 PV = "v2013.07-openbmc"
 
-SRC_URI = "git://github.com/theopolis/u-boot-openbmc.git;branch=${PV};protocol=git \
+SRC_URI = "git://github.com/theopolis/u-boot-openbmc.git;branch=${PV};protocol=http \
           "
 
 S = "${WORKDIR}/git"
